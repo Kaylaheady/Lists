@@ -1,0 +1,5 @@
+reverse(): To reverse the order of elements in the list, the function needs to go through each element of the list and rearrange the pointers to reverse the order.
+This requires traversing the entire list once, resulting in a time complexity of O(n), where n is the number of elements in the list.
+
+remove_if(): The remove_if() function deletes nodes from the list based on condition.
+In the worst case, the function may need to look at each element of the list to determine whether it should be remove. This results in a time complexity of O(n), where n is the number of elements in the list.
